@@ -1,6 +1,6 @@
 This is the among us taskmaster. It can complete almost every task in the first map of the game among us.
 
-///// Almost every pixel coordinates are completely hardcoded since I just made it for my own use. So, it can only run on the screen resolution of 1980x1020 and while the game is on fullscreen. /////
+///// Almost every pixel coordinates are completely hardcoded since I just made it for my own use. So, it can only run on the screen resolution of 1920x1080 and while the game is on fullscreen. /////
 
 The tasks that it cannot complete are:
 
@@ -14,7 +14,7 @@ There is a "key" variable in the _main.py file which is set to "r" on default. B
 
 The code is divided into 3 files, the detector, the performer and the main file.
 
-The detector is obviously going to actually detect which task should it should perform. For this, it matches the pixel value of 1-3 hardcoded pixel locations until 
+The detector is obviously going to actually detect which task should it should perform. For this, it matches the color value of 1-3 hardcoded pixel locations until 
 it recognizes the task. It is not recommended to run the program outside of among us because it can rarely give false positives and may move your mouse around uncontrollably.
 
 The performer is the file that performs the task itself. Every task has a different code some simple (like download/upload) and some complex (like clean vent).
