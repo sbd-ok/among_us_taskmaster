@@ -19,4 +19,6 @@ it recognizes the task. It is not recommended to run the program outside of amon
 
 The performer is the file that performs the task itself. Every task has a different code some simple (like download/upload) and some complex (like clean vent).
 
+The program may not perform some tasks correctly while being sabotaged due to the red flashing on the screen.
+
 There is also a data folder which stores the screenshot of some tasks where direct image recognition is required (like clean vent, align engine output, chart course).
